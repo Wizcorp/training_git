@@ -14,7 +14,7 @@ Please fork this repository by clicking the `Fork` button on the top right hand 
 #### Clone
 Once the project has been forked, proceed by cloning the repository
 
-`git clone ssh://git@github.com/YOURNAME/training-git`
+`git clone ssh://git@github.com/YOURNAME/training_git`
 
 #### Add Upstream
 To be able to pull in changes from the blessed repo we need to add it as an upstream
