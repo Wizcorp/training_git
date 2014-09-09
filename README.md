@@ -6,7 +6,7 @@ GitHub and will cover some basic training topics (Pull requests, conflicts etc).
 
 Setting Up
 ----------
-Before we can begin with out tutorial, there is a bit of setup involved to help us along the way.
+Before we can begin with our tutorial, there is a bit of setup involved to help us along the way.
 
 #### Fork
 Please fork this repository by clicking the `Fork` button on the top right hand side
