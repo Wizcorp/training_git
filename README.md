@@ -8,15 +8,17 @@ Setting Up
 ----------
 Before we can begin with out tutorial, there is a bit of setup involved to help us along the way.
 
-### Fork
+#### Fork
 Please fork this repository by clicking the `Fork` button on the top right hand side
 
-### Clone
+#### Clone
 Once the project has been forked, proceed by cloning the repository
+
 `git clone ssh://git@github.com/YOURNAME/training-git`
 
-### Add Upstream
+#### Add Upstream
 To be able to pull in changes from the blessed repo we need to add it as an upstream
+
 `git remote add upstream ssh://git@github.com/Wizcorp/training_git.git`
 
 
@@ -26,38 +28,45 @@ Here we will take you through the pull request process and have you perform your
 doing for your first fix is to update the title of this README file `training-git` to `Training - GIT`. Please follow
 the following instruction set to get to the PR review stages:
 
-### Branch
+#### Branch
 Create a branch dedicated to your fix, branching it from the master branch
+
 `git branch feature/titleFix master`
 
-### Checkout
+#### Checkout
 Now that the branch has been created, you will need to check it out to make changes
+
 `git checkout feature/titleFix`
 
-### Modify
+#### Modify
 From this point you can begin making changes, please alter the `README.md` file title to `Training - GIT`
 
-### Status
+#### Status
 Before we begin committing our work, let's take a quick look at the status of the project
+
 `git status`
 
-### Stage
+#### Stage
 We now have to commit our work, so firstly we need to stage the changes
+
 `git add README.md`
 
-### Commit 
+#### Commit
 And then we commit it
+
 `git commit -m "YOUR COMMIT MESSAGE HERE"`
 
-### Pull
+#### Pull
 At this point we should usually pull in any changes that may have occurred in the meantime on the master branch
+
 `git pull upstream master`
 
-### Push
+#### Push
 Then we push the branch up to our fork creating the branch on the remote
+
 `git push origin feature/titleFix`
 
-### Pull Request
+#### Pull Request
 Lastly we initiate a pull request to the origin blessed repository using the `Pull Request` button from your fork
 
 
@@ -67,39 +76,46 @@ Here we will help you face and resolve a git conflict by trying to simulate the 
 sentence `She sells sea-shells on the sea-shore.`. What we will do is modify this sentence to contain `by the seashore`
 as opposed to `on the sea-shore`.
 
-### Branch
+#### Branch
+
 `git branch feature/sentenceFix master`
 
-### Checkout
+#### Checkout
+
 `git checkout feature/sentenceFix`
 
-### Modify
+#### Modify
 Modify the above sentence as written there.
 
-### Status
+#### Status
+
 `git status`
 
-### Stage
+#### Stage
+
 `git add README.md`
 
-### Commit
+#### Commit
+
 `git commit -m "YOUR COMMIT MESSAGE HERE"`
 
-### Pull
+#### Pull
 Here to simulate the conflict resolution we will pull from a different upstream branch `conflict`
+
 `git pull upstream conflict`
 
-### Conflict Resolution
+#### Conflict Resolution
 You should now be faced with a conflict. You can quickly check which files contain a conflict by taking a look at this
 project `status`. When you open the file you should notice a section wrapped by `<<<<<`, `=====` and`>>>>>`. The goal is
 to remove one or merge then together into one. Once you have resolved the conflict, removed the encapsulation text
 `<<<<<`, `=====` and`>>>>>`.
 
-### Stage
+#### Stage
 
-### Commit
+#### Commit
 
-### Push
+#### Push
+
 `git push origin feature/sentenceFix`
 
-### Pull Request
+#### Pull Request
