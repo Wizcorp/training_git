@@ -73,7 +73,7 @@ Lastly we initiate a pull request to the origin blessed repository using the `Pu
 First Conflict
 --------------
 Here we will help you face and resolve a git conflict by trying to simulate the situation. We have the following
-sentence `She sells sea-shells on the sea-shore.`. What we will do is modify this sentence to contain `by the seashore`
+sentence `She sells sea-shells by the sea-shore.`. What we will do is modify this sentence to contain `by the seashore`
 as opposed to `on the sea-shore`.
 
 #### Branch
