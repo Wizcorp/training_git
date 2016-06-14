@@ -19,7 +19,7 @@ Once the project has been forked, proceed by cloning the repository
 #### Add Upstream
 To be able to pull in changes from the blessed repo we need to add it as an upstream
 
-`git remote add upstream git 
+`git remote add upstream ssh://git@github.com/Wizcorp/training_git.git`
 
 
 First Pull Request
