@@ -101,7 +101,7 @@ First Conflict　（初めてのコンフリクト）
 #### Commit（コミット）
 （下記のコマンドになります。）
 
-`git commit -m "YOUR COMMIT MESSAGE HERE"`
+`git commit -m "コミットメッセージをここに書いてください"`
 
 #### Pull（プル）
 コンフリクトを起こすために、Upstreamの別のブランチからプルしましょう。
