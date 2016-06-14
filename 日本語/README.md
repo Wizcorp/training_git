@@ -1,8 +1,5 @@
 training-git
 ============
-This guide is written around the [gitflow workflow](http://nvie.com/posts/a-successful-git-branching-model/) using
-GitHub and will cover some basic training topics (Pull requests, conflicts etc).
-
 こちらのトレニング用のガイドでGithubを使って、 [gitflow workflow](http://keijinsonyaban.blogspot.jp/2010/10/successful-git-branching-model.html) の基本のコンセプト（Pull requests, conflictsなど）を簡単に説明させて頂きます。
 
 Setting Up（セットアップ）
