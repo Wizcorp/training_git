@@ -12,7 +12,7 @@ Setting Up（セットアップ）
 #### Clone（クローン）
 自分のフォークが出来てから、リポジトリを自分のローカルにクローンしてください。（下記のコマンドになります。）
 
-`git clone ssh://git@github.com/YOURNAME/training_git`
+`git clone ssh://git@github.com/アカウント名/training_git`
 
 #### Add Upstream（Upstreamを追加）
 メーンリポジトリ（＝Upstream）から最新コードのPullが出来るように、Upstreamはどのリポジトリかを指定する必要です。（下記のコマンドになります。）
@@ -52,7 +52,7 @@ First Pull Request（初めてのPull Request）
 #### Commit（コミット）
 ステージされた内容をコミットしましょう。（下記のコマンドになります。）
 
-`git commit -m "YOUR COMMIT MESSAGE HERE"`
+`git commit -m "コミットメッセージをここに書いてください"`
 
 #### Pull（プル）
 ここまで進むとUpstreamのMasterブランチで最終のPullから他の変更が行ったかも知れないので、Pullしましょう。（下記のコマンドになります。）
@@ -66,7 +66,7 @@ First Pull Request（初めてのPull Request）
 
 #### Pull Request（プル　リグエスト）
 最終的にUpstreamにPull Requestを作りましょう。
-自分のフォーク（https://github.com/YOURNAME/training_git）から　`Pull Request`　のボタンを押してください。
+自分のフォーク（https://github.com/アカウント名/training_git）から　`Pull Request`　のボタンを押してください。
 
 
 First Conflict　（初めてのコンフリクト）
@@ -85,7 +85,7 @@ First Conflict　（初めてのコンフリクト）
 
 `git checkout feature/sentenceFix`
 
-#### Modify
+#### Modify（編集）
 `She sells sea-shells on the sea-shore.`の文章が入っています。その文章の`on the sea-shore`を`by the seashore`に変更しましょう。
 
 #### Status（ステータス）
