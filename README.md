@@ -22,7 +22,7 @@ To be able to pull in changes from the blessed repo we need to add it as an upst
 `git remote add upstream git 
 
 
-First Pull Request（初のPull Request）
+First Pull Request
 ------------------
 Here we will take you through the pull request process and have you perform your first pull request. What you will be
 doing for your first fix is to update the title of this README file `training-git` to `Training - GIT`. Please follow
@@ -46,7 +46,7 @@ Before we begin committing our work, let's take a quick look at the status of th
 
 `git status`
 
-#### Stage（
+#### Stage
 We now have to commit our work, so firstly we need to stage the changes
 
 `git add README.md`
@@ -58,7 +58,6 @@ And then we commit it
 
 #### Pull
 At this point we should usually pull in any changes that may have occurred in the meantime on the master branch
-
 
 `git pull upstream master`
 
