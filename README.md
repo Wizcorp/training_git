@@ -1,6 +1,6 @@
 training-git
 ============
-This guide is written around the [gitflow workflow](https://www.atlassian.com/git/workflows#!workflow-gitflow) using
+This guide is written around the [gitflow workflow](http://nvie.com/posts/a-successful-git-branching-model/) using
 GitHub and will cover some basic training topics (Pull requests, conflicts etc).
 
 
@@ -19,10 +19,10 @@ Once the project has been forked, proceed by cloning the repository
 #### Add Upstream
 To be able to pull in changes from the blessed repo we need to add it as an upstream
 
-`git remote add upstream ssh://git@github.com/Wizcorp/training_git.git`
+`git remote add upstream git 
 
 
-First Pull Request
+First Pull Request（初のPull Request）
 ------------------
 Here we will take you through the pull request process and have you perform your first pull request. What you will be
 doing for your first fix is to update the title of this README file `training-git` to `Training - GIT`. Please follow
@@ -46,7 +46,7 @@ Before we begin committing our work, let's take a quick look at the status of th
 
 `git status`
 
-#### Stage
+#### Stage（
 We now have to commit our work, so firstly we need to stage the changes
 
 `git add README.md`
@@ -58,6 +58,7 @@ And then we commit it
 
 #### Pull
 At this point we should usually pull in any changes that may have occurred in the meantime on the master branch
+
 
 `git pull upstream master`
 
