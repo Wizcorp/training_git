@@ -86,7 +86,7 @@ First Conflict　（初めてのコンフリクト）
 `git checkout feature/sentenceFix`
 
 #### Modify（編集）
-`She sells sea-shells on the sea-shore.`の文章が入っています。その文章の`on the sea-shore`を`by the seashore`に変更しましょう。
+`She sells sea-shells by the sea-shore.`の文章が入っています。その文章の`on the sea-shore`を`by the seashore`に変更しましょう。
 
 #### Status（ステータス）
 （下記のコマンドになります。）
