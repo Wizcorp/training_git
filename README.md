@@ -73,17 +73,8 @@ Lastly we initiate a pull request to the origin blessed repository using the `Pu
 First Conflict
 --------------
 Here we will help you face and resolve a git conflict by trying to simulate the situation. We have the following
-<<<<<<< HEAD
 sentence `She sells sea-shells by the seashore.`. What we will do is modify this sentence to contain `by the seashore`
 as opposed to `by the seashore`.
-
-#### Branch
-=======
-sentence `She sells sea-shells at the sea-shore.`. What we will do is modify this sentence to contain `by the seashore`
-as opposed to `on the sea-shore`.
->>>>>>> 56cb3c99fa612ca189c82c9f37ba9c320ab9a2f1
-
-`git branch feature/sentenceFix master`
 
 #### Checkout
 
