@@ -1,4 +1,5 @@
-training-git
+conflict
+
 ============
 This guide is written around the [gitflow workflow](http://nvie.com/posts/a-successful-git-branching-model/) using
 GitHub and will cover some basic training topics (Pull requests, conflicts etc).
