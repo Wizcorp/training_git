@@ -86,7 +86,8 @@ as opposed to `by the sea-shore`.
 
 #### Modify
 Modify the above sentence as written there.
-
+conflict
+ 
 #### Status
 
 `git status`
