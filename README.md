@@ -74,7 +74,7 @@ First Conflict
 --------------
 Here we will help you face and resolve a git conflict by trying to simulate the situation. We have the following
 sentence `She sells sea-shells on the sea-shore.`. What we will do is modify this sentence to contain `by the seashore`
-as opposed to `on the sea-shore`.
+as opposed to `by the sea-shore`.
 
 #### Branch
 
