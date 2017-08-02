@@ -1,4 +1,5 @@
-training-git
+test-test-training_git
+
 ============
 This guide is written around the [gitflow workflow](http://nvie.com/posts/a-successful-git-branching-model/) using
 GitHub and will cover some basic training topics (Pull requests, conflicts etc).
@@ -73,10 +74,9 @@ Lastly we initiate a pull request to the origin blessed repository using the `Pu
 First Conflict
 --------------
 Here we will help you face and resolve a git conflict by trying to simulate the situation. We have the following
-sentence `She sells sea-shells on the sea-shore.`. What we will do is modify this sentence to contain `by the seashore`
-as opposed to `on the sea-shore`.
 
-#### Branch
+sentence `She sells sea-shells at the sea-shore.`. What we will do is modify this sentence to contain `by the seashore`
+as opposed to `on the sea-shore`.
 
 `git branch feature/sentenceFix master`
 
@@ -86,7 +86,8 @@ as opposed to `on the sea-shore`.
 
 #### Modify
 Modify the above sentence as written there.
-
+conflict
+ 
 #### Status
 
 `git status`
