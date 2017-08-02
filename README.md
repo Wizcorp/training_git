@@ -1,4 +1,4 @@
-training_git
+test-test-training_git
 
 ============
 This guide is written around the [gitflow workflow](http://nvie.com/posts/a-successful-git-branching-model/) using
